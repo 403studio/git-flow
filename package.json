@@ -1,0 +1,30 @@
+{
+  "name": "git-flow",
+  "version": "0.1.0",
+  "description": "Git团队协作及分支策略",
+  "main": "index01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/403studio/git-flow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/403studio/git-flow/issues"
+  },
+  "homepage": "https://github.com/403studio/git-flow#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "husky": "^4.2.3"
+  }
+}
